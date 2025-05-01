@@ -10,7 +10,7 @@ import os
 IMG_SIZE = 224
 
 # Load the saved model
-model_path = 'full_model.h5'
+model_path = 'Models/full_model.h5'
 model = tf.keras.models.load_model(model_path)
 
 # Define the prediction function
